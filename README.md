@@ -39,7 +39,7 @@ Additionally the data to IPFS will not be uploaded if an IPFS daemon is not inst
 
 ## Technical details
 
-For the technical details see [SPECS.md](SPECS.md).
+For the technical details see [TECH.md](TECH.md).
 
 ## Why is it called Mango?
 
