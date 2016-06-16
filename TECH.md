@@ -34,8 +34,11 @@ References map a string (such as `refs/heads/master`) to an object hash.
 ### Git flow
 
 Downloading (cloning) a Git repository composes of the following simple steps:
+
 1. Find the latest commit of hash of the branch
+
 2. Download the referenced top object
+
 3. Download any further references in the tree
 
 ## Mango
@@ -97,7 +100,8 @@ The contract needs to have the following methods:
 
 ## Future improvements
 
-- Change the semantics to align with  [IPLD](https://github.com/ipfs/specs/tree/master/ipld) - Support multiple networks (every `hash` in the contract will be accompanied with a `network` field)
+- Change the semantics to align with  [IPLD](https://github.com/ipfs/specs/tree/master/ipld)
+- Support multiple networks (every `hash` in the contract will be accompanied with a `network` field)
 - Have a better serialisation format for objects and snapshots
 - Support Git packs
 - Use arrays and multiple returns values in the contract - this means switching from web3.js to ethereumjs-abi for decoding responses

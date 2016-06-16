@@ -18,7 +18,9 @@ Prerequisites:
 Install the helper with: `$ npm install -g git-remote-mango`
 
 If you have a repository you want to upload:
+
 1. Add the new remote: `$ git remote add mango mango://{repo address}`
+
 2. Push to the new remote: `$ git push mango master`
 
 If you know a repository you want to download: `$ git clone mango://{repo address}`
