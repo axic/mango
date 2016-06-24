@@ -33,4 +33,6 @@ contract MangoRepoInterface {
     function snapshotCount() constant returns (uint count);
     function getSnapshot(uint index) constant returns (string hash);
     function addSnapshot(string hash);
+
+    function isObsolete() constant returns (bool);
 }

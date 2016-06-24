@@ -95,4 +95,8 @@ contract MangoRepo is MangoRepoInterface {
     function addSnapshot(string hash) owneronly {
         snapshots.push(hash);
     }
+
+    function isObsolete() constant returns (bool) {
+        return false;
+    }
 }
