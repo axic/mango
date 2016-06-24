@@ -15,7 +15,9 @@ Prerequisites:
 - an IPFS node
 - git and node.js environment
 
-Install the helper with: `$ npm install -g git-remote-mango`
+Install the helpers with: `$ npm install -g mango-admin git-remote-mango`
+
+First you will need to create a repository on Ethereum. You can do this with: `$ mango-admin create`. This will use a simple contract with access control.
 
 If you have a repository you want to upload:
 
