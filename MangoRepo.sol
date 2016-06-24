@@ -36,6 +36,10 @@ contract MangoRepo is MangoRepoInterface {
         owner = msg.sender;
     }
 
+    function repoInterfaceVersion() constant returns (uint) {
+        return 1;
+    }
+
     function refCount() constant returns (uint) {
         return refKeys.length;
     }

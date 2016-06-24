@@ -22,6 +22,8 @@
  */
 
 contract MangoRepoInterface {
+    function repoInterfaceVersion() constant returns (uint version);
+
     function refCount() constant returns (uint count);
     function refName(uint index) constant returns (string ref);
     function getRef(string ref) constant returns (string hash);
