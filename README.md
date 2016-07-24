@@ -1,5 +1,7 @@
 # Mango
 
+[![Join the chat at https://gitter.im/axic/mango](https://badges.gitter.im/axic/mango.svg)](https://gitter.im/axic/mango?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 > Git, completely decentralised.
 
 Using Ethereum and P2P content addressable networks (Swarm, IPFS, SSB) as a backend to Git.
